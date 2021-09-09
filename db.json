@@ -1,20 +1,78 @@
 {
-    "building": [
+    "esg-pit": [
         {
-            "id": 1,
-            "sensor-data": [
+            "measurement-title": "Point-in-Time Environmental, Social, Governance (ESG) Score",
+            "measurement-description": "Provide building specific sensors data values (temperature, CO2, etc) by zone (lobby, 1st flor, etc) in a given point in time.",
+            "pit-option": "latest",
+            "pit-executed-at": "2021-09-09T19:51:20.888Z",
+            "sensor-temperature-unit": "F (Fahrenheit)",
+            "sensor-co2-unit": "PPM (Parts Per Million)",
+            "client-id": 1,
+            "client-name": "Sam's Buildings",
+            "building": [
                 {
-                    "temp": 56,
-                    "co2": 23
+                    "id": 1,
+                    "building-name": "WeWork Office",
+                    "data-collected-at": "2021-09-09T19:51:20.888Z",
+                    "zone": [
+                        {
+                            "id": 1,
+                            "name": "lobby",
+                            "sensor-collected-at": "2021-09-09T19:51:20.888Z",
+                            "zone-sensor-temp": 64,
+                            "zone-sensor-co2": 12
+                        },
+                        {
+                            "id": 2,
+                            "name": "first-flor",
+                            "sensor-collected-at": "2021-09-09T19:51:20.888Z",
+                            "zone-sensor-temp": 64,
+                            "zone-sensor-co2": 12
+                        }
+                    ],
+                    "building-summary-sensor-temp-avg": 64,
+                    "building-summary-sensor-temp-max": 74,
+                    "building-summary-sensor-temp-min": 53,
+                    "building-summary-sensor-co2-avg": 12,
+                    "building-summary-sensor-co2-max": 19,
+                    "building-summary-sensor-co2-min": 10
+                },
+                {
+                    "id": 2,
+                    "building-name": "Working Studio",
+                    "data-collected-at": "2021-09-09T19:51:20.888Z",
+                    "zone": [
+                        {
+                            "id": 1,
+                            "name": "lobby",
+                            "sensor-collected-at": "2021-09-09T19:51:20.888Z",
+                            "zone-sensor-temp": 64,
+                            "zone-sensor-co2": 12
+                        },
+                        {
+                            "id": 2,
+                            "name": "first-flor",
+                            "sensor-collected-at": "2021-09-09T19:51:20.888Z",
+                            "zone-sensor-temp": 64,
+                            "zone-sensor-co2": 12
+                        }
+                    ],
+                    "building-summary-sensor-temp-avg": 64,
+                    "building-summary-sensor-temp-max": 74,
+                    "building-summary-sensor-temp-min": 53,
+                    "building-summary-sensor-co2-avg": 12,
+                    "building-summary-sensor-co2-max": 19,
+                    "building-summary-sensor-co2-min": 10
                 }
-            ]
-        },
-        {
-            "id": 2,
-            "sensor-data": [
+            ],
+            "client-buildings-summary": [
                 {
-                    "temp": 76,
-                    "co2": 34
+                    "client-summary-sensor-temp-avg": 64,
+                    "client-summary-sensor-temp-max": 74,
+                    "client-summary-sensor-temp-min": 53,
+                    "client-summary-sensor-co2-avg": 12,
+                    "client-summary-sensor-co2-max": 19,
+                    "client-summary-sensor-co2-min": 10
                 }
             ]
         }
