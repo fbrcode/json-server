@@ -2,7 +2,7 @@
     "esg-pit": [
         {
             "measurement-title": "Point-in-Time Environmental, Social, Governance (ESG) Score",
-            "measurement-description": "Provide building specific sensors data values (temperature, CO2, etc) by zone (lobby, 1st flor, etc) in a given point in time.",
+            "measurement-description": "Provide building specific sensors data values (temperature, CO2, etc) by zone (lobby, 1st floor, etc) in a given point in time.",
             "pit-option": "latest",
             "pit-executed-at": "2021-09-09T19:51:20.888Z",
             "sensor-temperature-unit": "F (Fahrenheit)",
@@ -24,7 +24,7 @@
                         },
                         {
                             "id": 2,
-                            "name": "first-flor",
+                            "name": "first-floor",
                             "sensor-collected-at": "2021-09-09T19:51:20.888Z",
                             "zone-sensor-temp": 64,
                             "zone-sensor-co2": 12
@@ -51,7 +51,7 @@
                         },
                         {
                             "id": 2,
-                            "name": "first-flor",
+                            "name": "first-floor",
                             "sensor-collected-at": "2021-09-09T19:51:20.888Z",
                             "zone-sensor-temp": 64,
                             "zone-sensor-co2": 12
