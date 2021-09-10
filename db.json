@@ -1,6 +1,7 @@
 {
     "esg-pit": [
         {
+            "id": 1,
             "measurement-title": "Point-in-Time Environmental, Social, Governance (ESG) Score",
             "measurement-description": "Provide building specific sensors data values (temperature, CO2, etc) by zone (lobby, 1st floor, etc) in a given point in time.",
             "pit-option": "latest",
